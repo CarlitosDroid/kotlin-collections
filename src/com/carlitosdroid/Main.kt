@@ -12,12 +12,12 @@ object Main {
 
     private fun List<String>.getShortWords(shortWords: MutableList<String>, maxLength: Int) {
 
-        this.filterTo(shortWords) {
-            it.length <= maxLength
-        }
-        println(shortWords)
-        val articles = setOf("a", "A", "an", "An", "the", "The")
-        shortWords -= articles
+//        this.filter(shortWords) {
+//            it.length <= maxLength
+//        }
+//        println(shortWords)
+//        val articles = setOf("a", "A", "an", "An", "the", "The")
+//        shortWords -= articles
     }
 
 }
