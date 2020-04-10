@@ -14,8 +14,8 @@ object filterIndexedTo {
         val names3 = names1.filterIndexedTo(names2) { index, element ->
             (index == 0 && element.length > 4)
         }
-        println("remains the same: $names1")
-        println("remains the same: $names2")
-        println("remains the same: $names3")
+        println("$names1")
+        println("$names2")
+        println("$names3")
     }
 }
