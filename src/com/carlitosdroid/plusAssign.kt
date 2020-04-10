@@ -2,6 +2,10 @@ package com.carlitosdroid
 
 object plusAssign {
 
+    /**
+     * The [plusAssign] method returns only Unit
+     * if there are repeated elements, it doesn't add them
+     */
     @JvmStatic
     fun main(args: Array<String>) { // write your code here
         val names1 = mutableSetOf("Carlos", "Ronaldo", "Isaias", "Maria")
