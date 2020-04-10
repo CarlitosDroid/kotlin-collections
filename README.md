@@ -7,6 +7,8 @@ So the dream is to know each of them and be a better developer ever.
     * filterIndexed
     * filterIndexedTo
     * filterIsInstance
+    * filterNot
+    * filterNotNull
     * minus
     * minusAssign
     * plus
