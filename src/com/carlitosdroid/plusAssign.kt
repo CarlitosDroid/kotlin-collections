@@ -3,7 +3,7 @@ package com.carlitosdroid
 object plusAssign {
 
     /**
-     * The [plusAssign] method returns only Unit
+     * The [plusAssign] method returns only Unit, and only works with mutable collections
      * if there are repeated elements, it doesn't add them
      */
     @JvmStatic
