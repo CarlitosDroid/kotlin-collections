@@ -1,18 +1,16 @@
 package com.carlitosdroid
 
-object filterNotTo {
+object filterNotNullTo {
 
     /**
-     * The [filterNotTo] function returns a List.
-     * Both list must be of the same type, for example: (List<String?>), (MutableList<String?>)
+     * The [filterNotNullTo] function returns a List
+     * you must assign the response to a new variable
      */
     @JvmStatic
     fun main(args: Array<String>) { // write your code here
         val names1 = listOf("Eduardo", null, "Mari", null, "Jose", "Juan")// list of nullable String
         val names2 = mutableListOf<String?>("NewName")// mutable list of nullable String
-        val names3 = names1.filterNotTo(names2) {
-            it == null
-        }
+        val names3 = names1.filterNotNullTo(names2)
         println("It remains the same: $names1")
         println("$names2")
         println("$names3")
