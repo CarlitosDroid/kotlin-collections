@@ -10,7 +10,7 @@ object filterIndexedTo {
     @JvmStatic
     fun main(args: Array<String>) { // write your code here
         val names1 = listOf("Eduardo", "Leonardo", "Andy", "Jose")
-        val names2 = mutableListOf<String>("NewName")
+        val names2 = mutableListOf("NewName")
         val names3 = names1.filterIndexedTo(names2) { index, element ->
             (index == 0 && element.length > 4)
         }
