@@ -7,7 +7,7 @@ object first {
      */
     @JvmStatic
     fun main(args: Array<String>) { // write your code here
-        val names = mutableSetOf("Jose", "Juan", null, null, null)
+        val names = mutableSetOf(null, "Juan", "Jose", null, null)
         println("-------- with a nullable list-------")
 
         val firstElement1 = names.first()
