@@ -25,8 +25,12 @@ So the dream is to know each of them and be a better developer ever.
     * fold
     * forEach
     * forEachIndexed
+    * max
+    * maxBy
+    * maxWith
     * minus
     * minusAssign
     * plus
     * plusAssign
     * reduce
+    * removeIf
