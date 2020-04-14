@@ -19,6 +19,9 @@ So the dream is to know each of them and be a better developer ever.
     * findLast
     * first
     * firstOrNull
+    * flatMap
+    * flatMapTo
+    * flatten
     * fold
     * forEach
     * forEachIndexed
