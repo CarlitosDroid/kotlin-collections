@@ -7,9 +7,9 @@ object sortedBy {
      */
     @JvmStatic
     fun main(args: Array<String>) { // write your code here
-        val names = mutableListOf("Carlos", "Jose", "Leonardo", null)
+        val names = mutableListOf("Leonardo", "Carlos", "Jose", null)
         val firstElement1 = names.sortedBy {
-            it?.length
+            it
         }
         println(firstElement1)
     }
